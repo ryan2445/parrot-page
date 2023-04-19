@@ -108,7 +108,7 @@ function App() {
             fpsLimit: 60,
             particles: {
               color: {
-                value: '#BA8003'
+                value: '#FFF3A1'
               },
               move: {
                 direction: 'none',
@@ -125,7 +125,17 @@ function App() {
                 value: 40
               },
               opacity: {
-                value: 0.5
+                animation: {
+                  enable: true,
+                  minimumValue: 0.5,
+                  speed: 1.6,
+                  sync: false
+                },
+                random: {
+                  enable: true,
+                  minimumValue: 0.1
+                },
+                value: 1
               },
               shape: {
                 type: 'circle'

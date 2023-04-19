@@ -84,5 +84,9 @@ html * {
 
 a {
   color: #ba8003;
-  text-decoration: none;
+  text-decoration: underline rgba(255, 255, 255, 0);
+  transition: text-decoration-color 0.3s ease-in-out;
+}
+a:hover {
+  text-decoration: underline #ba8003;
 }
