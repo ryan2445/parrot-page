@@ -58,6 +58,10 @@
 .line > svg {
   margin-right: 10px;
 }
+.line > div,
+.line > svg {
+  flex: 1 0 auto;
+}
 
 /* Plant animations */
 .plant-container {
