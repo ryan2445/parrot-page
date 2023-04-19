@@ -57,9 +57,6 @@
 .line > svg {
   margin-right: 10px;
 }
-.line > div {
-  flex: 1 0 auto;
-}
 
 /* Plant animations */
 .plant-container {
@@ -81,6 +78,6 @@ html * {
 }
 
 a {
-  color: goldenrod;
+  color: #ba8003;
   text-decoration: none;
 }

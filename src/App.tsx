@@ -5,6 +5,7 @@ import layer2 from './layers/layer2.png'
 import layer3 from './layers/layer3.png'
 import layer4 from './layers/layer4.png'
 import layer5 from './layers/layer5.png'
+import layer6 from './layers/layer6.png'
 import Particles from 'react-particles'
 import { loadFull } from 'tsparticles'
 import type { Engine } from 'tsparticles-engine'
@@ -91,6 +92,12 @@ function App() {
         </div>
         <div className="image bottom plant-container">
           <img src={layer5} className="plant" />
+        </div>
+        <div
+          className="image bottom plant-container"
+          style={{ bottom: -18, zIndex: 0, overflow: 'hidden' }}
+        >
+          <img src={layer6} className="plant" />
         </div>
         <Particles
           id="tsparticles"
