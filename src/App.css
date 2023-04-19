@@ -39,7 +39,8 @@
   backdrop-filter: blur(5px);
   left: 50%;
   transform: translateX(-50%);
-  top: 15%;
+  top: 20%;
+  min-width: 26vh;
 }
 
 .name {

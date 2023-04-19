@@ -95,7 +95,7 @@ function App() {
         </div>
         <div
           className="image bottom plant-container"
-          style={{ bottom: -18, zIndex: 0, overflow: 'hidden' }}
+          style={{ zIndex: 0, overflow: 'hidden' }}
         >
           <img src={layer6} className="plant" />
         </div>
