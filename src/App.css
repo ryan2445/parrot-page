@@ -32,23 +32,33 @@
 /* About me */
 .about-me {
   position: absolute;
-  color: goldenrod;
-  outline: 2px solid goldenrod;
+  color: #ba8003;
+  outline: 2px solid #ba8003;
   z-index: 2;
   padding: 20px;
+  backdrop-filter: blur(5px);
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15%;
 }
 
 .name {
   text-align: center;
   margin-bottom: 10px;
+  font-size: 3vh;
 }
 
 .line {
   display: flex;
+  align-items: center;
+  font-size: 2vh;
   margin-bottom: 10px;
 }
 .line > svg {
   margin-right: 10px;
+}
+.line > div {
+  flex: 1 0 auto;
 }
 
 /* Plant animations */
@@ -59,58 +69,6 @@
 
 .plant {
   will-change: transform;
-}
-
-@media only screen and (max-width: 600px) {
-  .about-me {
-    top: 35%;
-    left: 22%;
-  }
-  .name {
-    font-size: 24px;
-  }
-  .line {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .about-me {
-    top: 35%;
-    left: 22%;
-  }
-  .name {
-    font-size: 24px;
-  }
-  .line {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .about-me {
-    top: 10%;
-    left: 45%;
-  }
-  .name {
-    font-size: 42px;
-  }
-  .line {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .about-me {
-    top: 15%;
-    left: 50%;
-  }
-  .name {
-    font-size: 42px;
-  }
-  .line {
-    font-size: 20px;
-  }
 }
 
 @font-face {

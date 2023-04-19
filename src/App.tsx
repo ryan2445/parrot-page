@@ -101,7 +101,7 @@ function App() {
             fpsLimit: 60,
             particles: {
               color: {
-                value: '#FCAE1E'
+                value: '#BA8003'
               },
               move: {
                 direction: 'none',
